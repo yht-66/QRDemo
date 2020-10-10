@@ -7,7 +7,7 @@ spring:
 
 
 
-    #ÕûºÏmybatis
+    #ï¿½ï¿½ï¿½ï¿½mybatis
 
 
 mybatis:
@@ -15,7 +15,10 @@ mybatis:
   mapper-locations: classpath:com/chixing/mapper/*Mapper.xml
 
 
-
+logging:
+  level: debug
+  file:
+    path: d://mmylog
 
 
 
