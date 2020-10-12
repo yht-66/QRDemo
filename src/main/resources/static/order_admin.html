@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/order_admin.css">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="dist/js/bootstrap.min.js"></script>
+
+
+    <!--layui-->
+    <link href="layui/css/layui.css" rel="stylesheet">
+    <script src="layui/layui.js"></script>
+
+</head>
+<body>
+<div class="top">
+    <div class="logo">
+        <img src="images/饭票_logo.png">
+    </div>
+    <ul>
+        <li><a href="">首页</a></li>
+        <li><a href="">分类</a></li>
+    </ul>
+    <div class="search">
+        <img id = "i1" src="images/sousuo1.svg">
+        <input class="search-input" type="text" placeholder="搜索明星、演出、城市">
+        <input type="submit" class="sousuo" value="搜索">
+    </div>
+
+    <div class="login-user">
+        <img src="images/denglutu.png">
+        <span><a href="http://localhost:63342/damai/login.html?_ijt=bq0flpu6gf4nse6tltt0bv4935">登录</a></span>
+    </div>
+
+</div>
+<div class="zuo">
+    <div class="mydamai">
+        <img src="images/side-h2.png">
+
+    </div>
+    <div class="jiaoyi">
+        <span>交易中心</span>
+    </div>
+    <div class="dingdan">
+        <a href="http://localhost:63342/damai/order_admin.html?_ijt=emme1sb6807qvj1b8eo5ednb0q">订单管理</a>
+    </div>
+    <div class="zhanghu">
+        <span>账户中心</span>
+    </div>
+    <div class="changyong">
+        <span><a href="http://localhost:63342/damai/common_user.html?_ijt=emme1sb6807qvj1b8eo5ednb0q">常用购票人</a> </span>
+    </div>
+    <div class="geren">
+        <span><a href="">个人信息</a> </span>
+    </div>
+</div>
+
+
+
+<div class="you2">
+    <table class="table table-hover table-bordered">
+        <tr style="background-color:#f8f8f8 ;text-align: center"  >
+            <td>项目图片</td>
+            <td>项目名称</td>
+            <td>票品张数</td>
+            <td>订单金额</td>
+            <td>订单号</td>
+            <td>操作</td>
+        </tr>
+        <tr>
+            <td><img src="images/dingdan.jpg"></td>
+            <td>西湖音乐节</td>
+            <td>1</td>
+            <td>￥290.00</td>
+            <td>1258486203096911023</td>
+            <td><a href="#" onclick='del(this)'>删除</a> </td>
+        </tr>
+        <tr>
+            <td><img src="images/dingdan.jpg"></td>
+            <td>西湖音乐节</td>
+            <td>1</td>
+            <td>￥290.00</td>
+            <td>1258486203096911023</td>
+            <td><a href="#" onclick='del(this)'>删除</a> </td>
+        </tr>
+
+
+
+    </table>
+
+</div>
+<div class="under">
+    <img src="images/dibu.png">
+</div>
+
+<script>
+    function del(obj){
+        obj.parentNode.parentNode.remove();
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/person_info.css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="dist/js/bootstrap.min.js"></script>
+
+
+    <!--layui-->
+    <link href="layui/css/layui.css" rel="stylesheet">
+    <script src="layui/layui.js"></script>
+</head>
+<body>
+     <div class="top">
+         <div class="logo">
+             <img src="images/饭票_logo.png">
+         </div>
+         <ul>
+             <li><a href="">首页</a></li>
+             <li><a href="">分类</a></li>
+         </ul>
+         <div class="search">
+             <img id = "i1" src="images/sousuo1.svg">
+             <input class="search-input" type="text" placeholder="搜索明星、演出、城市">
+             <input type="submit" class="sousuo" value="搜索">
+         </div>
+
+         <div class="login-user">
+             <img src="images/denglutu.png">
+             <span><a href="">登录</a></span>
+         </div>
+
+     </div>
+      <div class="red-line"></div>
+<div class="main">
+    <div class="sidenav">
+        <div id="mydamai">
+            <div class="aq">
+                <span>饭票网</span>
+            </div>
+
+           <div class="d1">
+
+               <div class="white-line"></div>
+               <div class="nav_Orders">
+                   <a href="" id="nav_Order">订单管理</a>
+
+               </div>
+               <div class="d2">
+
+                   <div class="white-liness"></div>
+                   <div class="nav_MyInfo">
+                       <a href="" id="nav_pro">个人信息</a>
+                       <div class="white-linesss"></div>
+                   </div>
+                   <a href="" id ="changyong">常用购票人</a>
+               </div>
+
+           </div>
+        </div>
+    </div>
+    <div class="right-main"><!--右侧部分-->
+       <div class="breadcrumb">
+           <span class="d3">个人信息</span>
+       </div>
+        <div class="tab-mydamai">
+               <div class="title">基本资料</div>
+            <div class="per-edit-list">
+           <form >
+               <d1>
+                   <dt>
+                       <span class="c4" style="padding-right: 3px;color: red" >*</span>
+                       用户名
+                   </dt>
+                   <dd>
+                       <input id="nickinp" type="text" class="input-text-2 " name="NickName">
+                   </dd>
+               </d1>
+               <d1>
+                   <dt>
+                       <span class="c4" style="padding-right: 3px;color: red" >*</span>
+                       真实姓名</dt>
+                   <dd>
+                       <input id ="realinp" type="text">
+                   </dd>
+               </d1>
+               <d1>
+                   <dt>
+
+                       性别
+                   </dt>
+                   <dd><input class="sex" type="radio"name="gender"checked="true" value="M"> 男性
+                       <input  class="sex" type="radio" name="gender"  value="F">女性<br/>
+                   </dd>
+               </d1>
+               <d1>
+                   <dt>生日</dt>
+                   <dd><input class="date" type="date"></dd>
+               </d1>
+               <d1>
+                   <dt>   <span class="c4" style="padding-right: 3px;color: red">*</span>
+                       身份证号</dt>
+                   <dd><input class="number" type="text" /></dd>
+               </d1>
+               <d1>
+                   <dt> 注册时间</dt>
+                   <dd><input class="datess" type="date" /></dd>
+               </d1>
+               <d1>
+                   <dt>   <span class="c4" style="padding-right: 3px;color: red">*</span> 邮箱</dt>
+                   <dd><input class="emails" type="email" /></dd>
+               </d1>
+                    <input type="button" class="ssa"value="保存" style="background-color: #ff1268"width="60px"height="20px">
+           </form>
+            </div>
+
+
+            </div>
+
+        </div> <!--右侧下方-->
+
+</div>
+
+
+    <script>
+
+
+        document.querySelector(".ssa").onclick =function(){
+            var nickinp =  document.querySelector("#nickinp").value;
+            var realinp =  document.querySelector("#realinp").value;
+            var sex =  document.querySelector(".sex").value;
+            var datess =  document.querySelector(".datess").value;
+            var date =  document.querySelector(".date").value;
+            var number =  document.querySelector(".number").value;
+            var emails =  document.querySelector(".emails").value;
+            console.log("用户名 :" + nickinp + ", 真实姓名 :" + realinp +"性别 :" + sex +"注册时间 :" + datess +"出生日期 :" + date +"身份证号 :" + number +" 注册邮箱:" + emails )
+
+        }
+
+
+    </script>
+     <script src="js/person_info.js"></script>
+</body>
+</html>
