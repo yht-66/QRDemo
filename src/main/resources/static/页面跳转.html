@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>页面跳转</title>
+    <style>
+p{
+    text-align: center;
+}
+        span{
+
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<p>  <span id="time">5</span>秒后跳转到首页面</p>
+
+
+</body>
+<script>
+
+        var second =5;
+       function showtime(){
+           second--;
+           if(second<=0){
+               location.href="https://www.bilibili.com/";
+           }
+           var  gettime= document.getElementById("time");
+           gettime.innerHTML=second+"";
+
+       }
+       //设置一个定时器 1秒执行1次该方法
+        setInterval(showtime,1000)
+
+</script>
+</html>
