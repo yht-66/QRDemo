@@ -1,0 +1,316 @@
+.top{
+    width:1000px;
+    height:72px;
+    border-bottom:1px solid #dcdcdc;
+    position: relative;
+    top:0px;
+}
+.top>ul li{
+    width:80px;
+    height:72px;
+    text-align: center;
+    position: relative;
+    float:left;
+    left:170px;
+    top:-68px;
+    /*border:1px solid black;*/
+    font-size: 16px;
+    line-height: 72px;
+}
+
+.search{
+    width:319px;
+    height:46px;
+    border-bottom:1px solid #dcdcdc;
+    position: relative;
+    float:left;
+    left:405px;
+    top:-51px;
+    border-bottom-left-radius: 23px;
+    border-top-left-radius: 23px;
+    background-color:#f8f8f8;
+}
+.top #i1{
+    position:absolute;
+    top:7px;
+    left:10px;
+}
+.search{
+    width:250px;
+    height:44px;
+    background-color:#f8f8f8;
+    border:0;
+    position: relative;
+
+    /* font-size: 20px;
+     left:20px;*/
+
+}
+.search .search-input{
+    width:260px;
+    height:44px;
+    position: relative;
+    left:47px;
+    top:0px;
+    font-size: 16px;
+    background-color:#f8f8f8;
+    /*line-height:35px;*/
+    border:0;
+}
+.sousuo{
+    width:82px;
+    height:44px;
+    font-size: 16px;
+    line-height: 36px;
+    border-bottom-right-radius: 23px;
+    border-top-right-radius: 23px;
+    background-color:#ff1268;
+    border:0;
+    /*  font:bolder;*/
+    position: relative;
+    top:-45px;
+    left:305px;
+    color: #ffffff;
+}
+.login-user{
+    position: relative;
+    left: 1000px;
+    border-bottom:1px solid #dcdcdc ;
+    bottom: 120px;
+    width: 263px;
+    height: 125px;
+    background-color: #ffffff;
+
+}
+.login-user img{
+    width:30px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+
+}
+.login-user span{
+    position: relative;
+    top: 3px;
+    font-size: 16px;
+}
+/*==================轮播图============================*/
+.lunbotu {
+    margin-left: 35px;
+    margin-top: 40px;
+}
+/*====================演出====================================*/
+
+.show{
+    width: 1180px;
+    height:380px;
+    /*background-color: #b7ebe9;*/
+    margin-left: 33px;
+}
+/*==================演出text（上部）================================*/
+.show-text{
+    width: 1100px;
+    height:65px;
+   /* background-color: #eba3e2;*/
+    margin-left: 20px;
+}
+
+.show-text span{
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+   /* background-color: gold;*/
+    margin-left: 18px;
+    margin-top: 30px;
+    color: #111;
+    width: 500px;
+    height: 40px;
+    overflow: hidden;
+}
+
+/*==================演唱会图文（总）=================================*/
+.show-box{
+    width: 1180px;
+    height:380px;
+   /* background-color: #bba1eb;*/
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/*======================图文left=======================================*/
+
+.box-left{
+    display: inline-block;
+    width: 270px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+}
+/*======================left背景图===================================*/
+.box-left__bg{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #efefef;
+}
+
+/*=======================图下方盒子（阴影）=============================*/
+.box-left_info{
+    width: 250px;
+    height: 84px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 17px 10px;
+    background-color: rgba(0,0,0,.5);
+}
+/*==========================演唱会名称====================================*/
+.title{
+    height: 45px;
+    font-size: 16px;
+    color: #ffffff;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+/*============================演唱会价格===================================*/
+.details{
+    margin-top: 12px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.details span{
+    font-size: 14px;
+}
+
+/*--==================图文left============================================*/
+.box-left{
+    display: inline-block;
+    width: 270px;
+    margin-left: 20px;
+    height: 360px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.box-right{
+    display:inline-block;
+    width: 875px;
+   /* margin-left: 20px;*/
+    height: 370px;
+   /* vertical-align: top;
+    overflow: hidden;*/
+  /*  background-color: darkred;*/
+}
+/*=================图文right-第一个===================================================*/
+.box-right_item{
+    width: 273px;
+    height: 160px;
+    display: block;
+    margin-right: 16px;
+    display: inline-block;
+    margin-bottom: 40px;
+    color: #000;
+    overflow: hidden;
+  /* background-color: coral;*/
+}
+
+/*==============图文right-图==============================-*/
+
+.iteming{
+    width: 118px;
+    height: 158px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    border: 1px solid #efefef;
+}
+
+.iteming img{
+    width: 100%;
+}
+/*===============图文right-文(总)====================================*/
+.iteminfo{
+    width: 138px;
+    height: 100%;
+    display: inline-block;
+  /*  background-color: #d3c2ff;*/
+    position: relative;
+   top: -40px;
+   /* padding-left: 15px;
+    vertical-align: top;*/
+
+}
+/*===========文一==================*/
+ /*========演唱会名称=====*/
+.title{
+    line-height: 20px;
+    font-size: 14px;
+    color: #4A4A4A;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+/*=========地址==========*/
+.venue{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 12px;
+    margin-top: 14px;
+    color: #9B9B9B;
+    overflow: hidden;
+    word-break: break-all;
+}
+/*==========时间=========*/
+.showtime{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 12px;
+    margin-top: 14px;
+    color: #9B9B9B;
+    overflow: hidden;
+    word-break: break-all;
+}
+/*===========价格===========*/
+.price{
+    width: 138px;
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    font-size: 16px;
+    color: #FF1268;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.tudibu{
+    width: 1180px;
+    height:380px;
+    /* background-color: #bba1eb;*/
+
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.title-1{
+    line-height: 20px;
+    font-size: 14px;
+    color: #fdf8f8;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
