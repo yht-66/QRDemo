@@ -69,7 +69,9 @@
                 </exclusion>
 
             </exclusions>
+
         </dependency>
+
         <!--mybatis起步依赖-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
@@ -121,6 +123,12 @@
 
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>
