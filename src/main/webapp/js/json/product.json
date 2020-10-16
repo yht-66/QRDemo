@@ -1,0 +1,29 @@
+{
+    "resultcode":"200",
+    "reason": "查询物流信息成功",
+    "result":{
+        "list":[
+
+            {
+                "proName": "迪士尼（Disney）2儿童保温杯水杯 宝宝单柄训练喝水杯1",
+                "proImg": "images/cup1.jpg",
+                "proPrice": "88"
+            },
+            {
+                "proName": "迪士尼（Disney）2儿童保温杯水杯 宝宝单柄训练喝水杯2",
+                "proImg": "images/cup1.jpg",
+                "proPrice": "77"
+            },
+            {
+                "proName": "迪士尼（Disney）2儿童保温杯水杯 宝宝单柄训练喝水杯3",
+                "proImg": "images/cup1.jpg",
+                "proPrice": "44"
+            },
+            {
+                "proName": "迪士尼（Disney）2儿童保温杯水杯 宝宝单柄训练喝水杯4",
+                "proImg": "images/cup1.jpg",
+                "proPrice": "66"
+            }
+        ]
+    }
+}

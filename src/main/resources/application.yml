@@ -16,7 +16,7 @@ mybatis:
 
 
 logging:
-  level: debug
+  com.blog.springboot: WARN
   file:
     path: d://mmylog
 

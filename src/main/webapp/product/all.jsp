@@ -81,18 +81,6 @@
 
         <%-- 有商品--%>
         <c:if test="${!empty productList}">
-
-
-
-
-
-
-
-
-
-
-
-
             <ul>
 
                 <c:forEach var="product" items="${productList}">

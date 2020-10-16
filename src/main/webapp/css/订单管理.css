@@ -1,0 +1,230 @@
+body a:hover{
+    color: #ff1268;
+    text-decoration: none;
+}
+body a{
+    text-decoration: none;
+}
+body ul{
+    list-style: none;
+}
+.top{
+    width:100%;
+    height:72px;
+    border-bottom:1px solid #dcdcdc;
+    position: relative;
+    top:0px;
+}
+.top>ul li{
+    width:80px;
+    height:72px;
+    text-align: center;
+    position: relative;
+    float:left;
+    left:170px;
+    top:-68px;
+    /*border:1px solid black;*/
+    font-size: 16px;
+    line-height: 72px;
+}
+
+.search{
+    width:319px;
+    height:46px;
+    border-bottom:1px solid #dcdcdc;
+    position: relative;
+    float:left;
+    left:405px;
+    top:-51px;
+    border-bottom-left-radius: 23px;
+    border-top-left-radius: 23px;
+    background-color:#f8f8f8;
+}
+.top #i1{
+    position:absolute;
+    top:3px;
+    left:10px;
+}
+.search{
+    width:250px;
+    height:35px;
+    background-color:#f8f8f8;
+    border:0;
+    position: relative;
+
+    /* font-size: 20px;
+     left:20px;*/
+
+}
+.search .search-input{
+    width:260px;
+    height:35px;
+    position: relative;
+    left:47px;
+    top:0px;
+    font-size: 16px;
+    background-color:#f8f8f8;
+    /*line-height:35px;*/
+    border:0;
+}
+.sousuo{
+    width:82px;
+    height:35px;
+    font-size: 16px;
+    line-height: 36px;
+    border-bottom-right-radius: 23px;
+    border-top-right-radius: 23px;
+    background-color:#ff1268;
+    border:0;
+    font:bolder;
+    position: relative;
+    top:-35px;
+    left:305px;
+    color: #ffffff;
+}
+.login-user{
+    position: relative;
+    left: 1300px;
+    bottom: 120px;
+    width: 100px;
+    height: 100px;
+
+}
+.login-user img{
+    width:30px;
+    height: 30px;
+}
+.login-user span{
+    position: relative;
+    top: 3px;
+    font-size: 16px;
+}
+.zuo {
+    width: 205px;
+    height: 300px;
+
+    position: relative;
+    left: 300px;
+    top: 17px;
+}
+.mydamai{
+    width:100%;
+    height: 70px;
+
+}
+.mydamai img{
+    position: relative;
+    right: 2px;
+    bottom: 37px;
+    height: 40px;
+    width: 206px;
+}
+.jiaoyi{
+    width:205px;
+    height: 45px;
+    font-size: 17px;
+    border: 1px solid gainsboro;
+    font-weight:bolder;
+    border-top:none ;
+}
+.jiaoyi span{
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+.dingdan{
+    width:205px;
+    height: 45px;
+    border: 1px solid gainsboro;
+    border-top:none ;
+
+}
+.dingdan:hover{
+    background-color: #dcdcdc;
+}
+.dingdan a{
+    position: relative;
+    left: 70px;
+    top: 12px;
+}
+.zhanghu{
+    width:205px;
+    height: 50px;
+    font-size: 17px;
+    border:1px solid gainsboro;
+    border-top:none ;
+    font-weight:bolder;
+}
+.zhanghu span{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.changyong{
+    width:205px;
+    height: 55px;
+    border: 1px solid gainsboro;
+    border-top:none ;
+
+}
+.changyong a{
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+.changyong:hover{
+    background-color: #dcdcdc;
+}
+.geren{
+    width:205px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-top:none ;
+
+}
+.geren a{
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+.geren:hover{
+    background-color: #dcdcdc;
+}
+.you{
+    width:900px;
+    height: 40px;
+
+    position: relative;
+    left: 520px;
+    bottom: 283px;
+    background-color: #f7f7f7;
+    font-size: 17px;
+    color: darkgray;
+}
+.you2{
+    width:700px;
+    height: 75px;
+
+    position: relative;
+    left: 520px;
+    bottom: 250px;
+}
+.you2 img{
+    width: 62px;
+    height: 80px;
+}
+.you2 span{
+    position: relative;
+    left: 60px;
+    bottom: 40px;
+}
+.under {
+    height: 200px;
+    width: 100%
+    border:1px solid green;
+}
+.under img{
+    height: 320px;
+    width: 1520px;
+
+}

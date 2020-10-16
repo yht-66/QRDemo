@@ -1,0 +1,284 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.dm-header-wrap{
+    width: 100%;
+    height: 72px;
+
+
+}
+.red-line{
+    border-bottom: 5px solid #ed0a75;
+}
+.white-line{
+    border-bottom: 3px solid gainsboro;
+   position: absolute;
+
+}
+.white-lines{
+    border-bottom: 3px solid gainsboro;
+    position: relative;
+    top:1px
+}
+.main{
+
+   width: 1000px;
+    height: 441px;
+
+
+    margin: 15px auto 0;
+}
+.main .sidenav{
+    width: 201px;
+    float: left;
+    height: 260px;
+    position: absolute;
+
+}
+#mydamai{
+    border: 1px solid #efefef;
+    margin-bottom: 15px;
+    width: 201px;
+    height:150px;
+}
+h3{
+  position: absolute;
+  top: 2px;
+    color: white;
+    font-size: 15px;
+}
+ .d1{
+ width: 199px;
+     height: 100px;
+    top:40px;
+     position: absolute;
+}
+
+.nav_Orders{
+
+    text-align: center; /*水平居中*/
+    width: 199px;
+    height: 60px;
+
+    position: relative;
+     top:-20px
+}
+#nav_Order {
+line-height:60px ;    /*垂直剧中*/
+    font-size: 15px;
+    text-decoration: none; /*去掉超链接的下划线*/
+
+}
+h5{
+    font-size: 15px;
+    position: relative;
+   right: -15px;
+    top: -30px;
+}
+.white-liness{
+    border-bottom: 3px solid gainsboro;
+    position:relative;
+    top:-30px
+}
+.nav_MyInfo{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+
+}
+#nav_pro{
+    line-height:50px ;
+    text-decoration: none;
+    font-size: 15px;
+}
+#changyong{
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top:-80px;
+    right: -70px;
+}
+.white-linesss{
+    border-bottom: 3px solid gainsboro;
+    position: relative;
+    top:-40px
+}
+.right-main{
+    width:790px;
+    height: 440px;
+  float: right;
+
+}
+.breadcrumb{
+    width:790px;
+    height: 40px;
+
+    border: 1px solid #efefef;
+
+    overflow: hidden;
+
+    padding: 0 15px;
+    line-height: 38px;
+    color: #999;
+    margin-bottom: 15px
+}
+.d3{
+    width: 61px;
+    height: 20px;
+    padding-right: 5px;
+    display: block;
+    line-height: 20px;
+
+
+
+}
+.right-main .tab-mydamai{
+    width: 790px;
+    height: 378px;
+
+}
+.tab-mydamai .title {
+    border-bottom: 2px solid #ed0a75;
+    height: 29px;
+}
+.right-main .per-edit-list{
+   width: 790px;
+    height: 390px;
+
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: #999;
+    margin-bottom: 15px;
+}
+dd{
+    border: 3px solid white;
+    border-radius:6px;
+}
+.ssa{
+    background-color: red;
+    width: 94px;
+    height: 32px;
+    position: relative;
+    right: -40px;
+    top: 15px;
+
+}
+body a:hover{
+    color: #ff1268;
+    text-decoration: none;
+}
+.top{
+    width:100%;
+    height:72px;
+    border-bottom:1px solid #dcdcdc;
+    position: relative;
+    top:0px;
+}
+.top>ul li{
+    width:80px;
+    height:72px;
+    text-align: center;
+    position: relative;
+    float:left;
+    left:170px;
+    top:-68px;
+    /*border:1px solid black;*/
+    font-size: 16px;
+    line-height: 72px;
+}
+
+.search{
+    width:319px;
+    height:46px;
+    border-bottom:1px solid #dcdcdc;
+    position: relative;
+    float:left;
+    left:405px;
+    top:-51px;
+    border-bottom-left-radius: 23px;
+    border-top-left-radius: 23px;
+    background-color:#f8f8f8;
+}
+.top #i1{
+    position:absolute;
+    top:3px;
+    left:10px;
+}
+.search{
+    width:250px;
+    height:35px;
+    background-color:#f8f8f8;
+    border:0;
+    position: relative;
+
+    /* font-size: 20px;
+     left:20px;*/
+
+}
+.search .search-input{
+    width:260px;
+    height:35px;
+    position: relative;
+    left:47px;
+    top:0px;
+    font-size: 12px;
+    background-color:#f8f8f8;
+    /*line-height:35px;*/
+    border:0;
+}
+.sousuo{
+    width:82px;
+    height:35px;
+    font-size: 16px;
+    line-height: 36px;
+    border-bottom-right-radius: 23px;
+    border-top-right-radius: 23px;
+    background-color:#ff1268;
+    border:0;
+    /*    font:bolder;*/
+    position: relative;
+    top:-35px;
+    left:305px;
+    color: #ffffff;
+}
+.login-user{
+    position: relative;
+    left: 1300px;
+    bottom: 120px;
+    width: 100px;
+    height: 100px;
+
+}
+.login-user img{
+    width:30px;
+    height: 30px;
+}
+.login-user span{
+    position: relative;
+    top: 3px;
+    font-size: 16px;
+}
+.aq{
+    width: 203px;
+    height: 33px;
+    background-color: #ff1268;
+    position: absolute;
+    font-size: 18px;
+    color: #eeeeee;
+
+}
+dt{
+    font-size: 15px;
+}
+dd{
+    font-size: 15px;
+
+}
+
+
+
+
