@@ -1,0 +1,173 @@
+body {
+    color: #999;
+    font-family: 'Microsoft YaHei',sans-serif !important;
+    -webkit-text-size-adjust: none;
+}
+
+
+.box{
+    width:800px;
+    height: 400px;
+  /*  background-color: salmon;*/
+
+}
+
+.next-dialog-header{
+    width:700px;
+    height:40px;
+   /* background-color: skyblue;*/
+    font-size:16px;
+    margin: 0;
+    padding: 20px 46px 0 20px;
+    border-bottom: 1px solid transparent;
+    color: #333;
+
+}
+/*-==============盒子（中）=================*/
+.next-dialog-body{
+    width:700px;
+    height:200px;
+    margin-left: 16px;
+  /*  background-color: #c8ebb2;*/
+}
+/*-=============观演人姓名（总）================*/
+.next-row{
+    width:700px;
+    height:35px;
+  /*  background-color: #fbfdfa;*/
+    font-size:15px;
+    color: #3c3c3c;
+    line-height: 24px;
+}
+
+/*==========字==================*/
+.dm-form-item-label{
+    width: 72px;
+    height: 100%;
+    float: left;
+
+    font-size: 14px;
+}
+/*==========输入框================*/
+
+.dm-form-item-content{
+    margin-right: 10px;
+    float: left;
+}
+.next-input{
+    border-color: #C4C6CF;
+    width: 280px;
+    border-radius: 0;
+    box-sizing: border-box;
+   /* display: inline-table;*/
+    overflow: visible;
+   /* border: 1px solid #E6E7EB;*/
+  /*  background-color: #FFF;*/
+    transition: all .3s ease-out;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 12px;
+    color: #3c3c3c;
+    line-height: 24px;
+}
+
+.next-input{
+    font-size: 12px;
+    height: 24px;
+    line-height: 14px;
+    color: #333;
+    padding: 0 8px;
+    border: none;
+}
+/*========证件类型（总）=======================*/
+.next-row-no-padding{
+    margin-top:30px;
+
+    font-size: 12px;
+    color: #3c3c3c;
+    line-height: 24px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+   /*  background-color: #ebfde7;*/
+    width:700px;
+    height:35px;
+}
+/*============字================*/
+.dm-form-item-label{
+    font-size: 12px;
+    color: #3c3c3c;
+    line-height: 24px;
+}
+
+
+/*==================阅读同意文字============*/
+.agree-box{
+    width:700px;
+    height:80px;
+    /*background-color: #ffaceb;*/
+}
+
+.agree-title{
+    width:700px;
+    height:15px;
+    margin-top: 15px;
+   /* background-color: #9dd5ff;*/
+    font-size: 9px;
+}
+
+.agree-icon{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    color: #fff;
+    background: #ccc;
+    display: inline-block;
+    text-align: center;
+    line-height: 12px;
+    font-size: 12px;
+     margin-top: 0px;
+    margin-right: 3px;
+}
+
+
+.agree-text{
+    font-size: 10px;
+}
+
+/*==================底部框=======================*/
+.next-dialog-footer{
+    width: 190px;
+    height: 50px;
+    margin-left: 18px;
+ /*   background-color: #86a6a9;*/
+}
+
+.next-btn-primary{
+    background: #ff1268;
+    width: 75px;
+    height: 30px;
+    font-size: 14px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 3px;
+    color: #fbfdfa;
+}
+
+.next-btn-normal{
+    background: #fbfdfa;
+    width: 75px;
+    height: 30px;
+    font-size: 14px;
+    margin-right: 5px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 3px;
+    border-color: #ff1268;
+    color: #ff1268;
+}
+
+
