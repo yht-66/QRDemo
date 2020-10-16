@@ -63,7 +63,7 @@ document.querySelector(".changci4").onclick=function(){
     document.querySelector(".changci3").style = "b1";
 
     var changci4Ele = document.querySelector(".changci4");
-    console.log("场次为:" + changci44Ele.innerText);
+    console.log("场次为:" + changci4Ele.innerText);
 
 };
 
@@ -72,9 +72,10 @@ document.querySelector(".changci4").onclick=function(){
 
 //选择票档
 var priceEle = document.querySelector(".s10");
-
+var click = 0;
 var b2 =document.querySelector(".g1").style;
 document.querySelector(".g1").onclick=function(){
+    click = 1;
     document.querySelector(".g1").style.color ="#ff1286";
     document.querySelector(".g1").style.borderColor ="#ff1286";
 
@@ -83,48 +84,53 @@ document.querySelector(".g1").onclick=function(){
     document.querySelector(".g4").style = "b2";
 
     var piaodang1Ele = document.querySelector(".g1");
-    console.log("票档为:" + piaodang1Ele.innerText);
-    var price1Ele = document.querySelector(".price1")
-    var numEle = document.querySelector(".piaoshu")
-    document.querySelector(".zongji").value = parseInt(price1Ele.innerText)*numEle.value;
+    /* console.log("票档为:" + piaodang1Ele.innerText);*/
+    var price1Ele = document.querySelector(".price1");
+    /*  var numEle = document.querySelector(".piaoshu")*/
+    document.querySelector(".zongji").innerText = price1Ele.innerText;
+
 };
 document.querySelector(".g2").onclick=function(){
     document.querySelector(".g2").style.color ="#ff1286";
     document.querySelector(".g2").style.borderColor ="#ff1286";
-
+    click = 2;
     document.querySelector(".g1").style = "b2";
     document.querySelector(".g3").style = "b2";
     document.querySelector(".g4").style = "b2";
 
     var piaodang2Ele = document.querySelector(".g2");
-    var price2Ele = document.querySelector(".price2")
-    document.querySelector(".zongji").value = price2Ele.innerText;
+    var price2Ele = document.querySelector(".price2");
+    document.querySelector(".zongji").innerText = price2Ele.innerText;
+
 
 };
 document.querySelector(".g3").onclick=function(){
     document.querySelector(".g3").style.color ="#ff1286";
     document.querySelector(".g3").style.borderColor ="#ff1286";
-
+    click = 3;
     document.querySelector(".g1").style = "b2";
     document.querySelector(".g2").style = "b2";
     document.querySelector(".g4").style = "b2";
 
     var piaodang3Ele = document.querySelector(".g3");
-    var price3Ele = document.querySelector(".price3")
-    document.querySelector(".zongji").value = price3Ele.innerText;
+    var price3Ele = document.querySelector(".price3");
+    document.querySelector(".zongji").innerText = price3Ele.innerText;
+
 
 };
 document.querySelector(".g4").onclick=function(){
     document.querySelector(".g4").style.color ="#ff1286";
     document.querySelector(".g4").style.borderColor ="#ff1286";
-
+    click = 4;
     document.querySelector(".g1").style = "b2";
     document.querySelector(".g2").style = "b2";
     document.querySelector(".g3").style = "b2";
 
     var piaodang4Ele = document.querySelector(".g4");
-    var price4Ele = document.querySelector(".price4")
-    document.querySelector(".zongji").value = price4Ele.innerText;
+    var price4Ele = document.querySelector(".price4");
+    document.querySelector(".zongji").innerText = price4Ele.innerText;
+
+
 };
 
 
@@ -160,45 +166,47 @@ document.querySelector(".a1").onclick = function(){
     console.log("数量为：" + numberEle.value);
 };
 
+
+
 //总计价格
+var container = document.querySelector(".middle");
 
-
-/*layer.open({
-    type: 1,
-    title: false,
-    closeBtn: 0,
-    shadeClose: true,
-   /!* skin: 'yourclass',*!/
-    content: ' $("#container").show();\n' +
-        '        var map = new AMap.Map(\'container\', {\n' +
-        '            zoom: 11,//级别\n' +
-        '            //103.926287&lat=30.672209\n' +
-        '            center: [103.926287, 30.672209],//中心点坐标\n' +
-        '            viewMode: \'3D\'//使用3D视图\n' +
-        '        });'
-
-});*/
+container.onclick = function(event){
+   zongji();//总计
+};
 
 
 
-var count = 0;
-$(".dingwei").click(function(){
-    count++;
-    if(count == 1){
-        $("#container").show();
-        var map = new AMap.Map('container', {
-            zoom: 11,//级别
-            //103.926287&lat=30.672209
-            center: [103.926287, 30.672209],//中心点坐标
-            viewMode: '3D'//使用3D视图
-        });
+if(element.nodeName == "A" && element.innerHTML == "-") {
+    zongji();
+    //总计
+}
 
-    }else{
-        count =0;
-        $("#container").hide();
+
+    function zongji(){
+    //选择票档
+
+        var originalPrice = 0;
+        console.log("click=" + click);
+        switch (click) {
+            case 1:
+                originalPrice = 300;break;
+            case 2:
+                originalPrice = 380;break;
+            case 3:
+                originalPrice = 480;break;
+            case 4:
+                originalPrice = 650;break;
+        }
+        var totalPrice = originalPrice * count;
+
+        console.log("22222");
+        document.querySelector(".zongji").innerText = totalPrice;
+
     }
-    console.log("count");
-})
+
+
+
 
 /*var btn1 = document.querySelector("#l1").style;
 var btn2 = document.querySelector("#l2").style;*/
