@@ -373,7 +373,7 @@ body a:hover{
     width:23px;
     height:23px;
  /*   border:1px solid red;*/
-/*    background-color:#f6f7f8;*/
+    background-color:#f6f7f8;
     text-align: center;
     line-height: 23px;
 
@@ -386,7 +386,7 @@ body a:hover{
     width:23px;
     height:23px;
  /*   border:1px solid red;*/
-/*    background-color:#f6f7f8;*/
+    background-color:#f6f7f8;
     text-align: center;
     line-height: 23px;
     position: relative;
@@ -405,9 +405,9 @@ body a:hover{
     left:-40px;
     top:-20px;
 }
-.number .s1{
+.number .d1 .s1{
     position: relative;
-    left:-40px;
+    left:120px;
     top:-20px;
 }
 
@@ -475,7 +475,7 @@ body a:hover{
 }
 #container {
     width:600px;
-    height:500px;
+    height:400px;
     position:relative;
     float:right;
     top:-1730px;
