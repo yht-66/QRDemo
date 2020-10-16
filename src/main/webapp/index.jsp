@@ -83,7 +83,7 @@
                 ready : function() {
                 },
                 success : function() {
-                    alert('验证成功，添加你自己的代码！');
+                    alert('验证成功');
                     //......后续操作
                 },
                 error : function() {
