@@ -5,12 +5,13 @@
   Time: 15:18
   To change this template use File | Settings | File Templates.
 --%>
-<link rel="icon" href="data:image/ico;base64,aWNv">
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Title</title>
 </head>
+<link rel="icon" href="data:image/ico;base64,aWNv">
 <link rel="stylesheet" type="text/css" href="css/注册2.css">
 <link rel="stylesheet" type="text/css" href="css/verify.css">
 <script src="js/jquery.min.js"></script>

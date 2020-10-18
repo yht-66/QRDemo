@@ -22,7 +22,7 @@ public class UserController {
     @ApiOperation("注册用户接口")
     @PostMapping("register")
     public Result<Register> register(@RequestParam String tel,
-                                 @RequestParam String password){
+                                     @RequestParam String password){
         return registerService.addUser(tel, password);
 
     }
