@@ -16,7 +16,7 @@
 <a href="http://localhost:8080/qr/generate?content=http://localhost:8080/a.jsp" ><input type="submit"  value="生成电子票" onclick="qr()"></a>
 <%--<script>--%>
 <%--    function qr() {--%>
-
+<%--11--%>
 <%--        $.ajax({--%>
 <%--            url:"/qr/generate?content=https://github.com/YunkunWen/QRdemo",--%>
 <%--            responseType: 'arraybuffer',--%>
