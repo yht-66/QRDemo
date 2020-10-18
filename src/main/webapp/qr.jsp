@@ -13,7 +13,7 @@
     <script src="js/jquery.min.js"></script>
 </head>
 <body>
-<a href="http://localhost:8080/qr/generate?content=https://www.baidu.com" ><input type="submit"  value="生成电子票" onclick="qr()"></a>
+<a href="http://localhost:8080/qr/generate?content=http://localhost:8080/a.jsp" ><input type="submit"  value="生成电子票" onclick="qr()"></a>
 <%--<script>--%>
 <%--    function qr() {--%>
 
